@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.example</groupId>
   <artifactId>drgsubReleaseTest</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>drgsubReleaseTest</name>
   <description>drgsubReleaseTest</description>
@@ -15,7 +15,7 @@
     <connection>scm:git:https://github.com/Samitha-001/drgsubReleaseTest.git</connection>
     <developerConnection>scm:git:https://github.com/Samitha-001/drgsubReleaseTest.git</developerConnection>
     <url>https://github.com/Samitha-001/drgsubReleaseTest.git</url>
-    <tag>drgsubReleaseTest-1.0.0</tag>
+    <tag>HEAD</tag>
   </scm>
   <distributionManagement>
     <repository>
