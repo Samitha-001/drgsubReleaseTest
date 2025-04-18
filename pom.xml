@@ -13,9 +13,9 @@
     <module>drgsubReleaseTestCompositeExporter</module>
   </modules>
   <scm>
-    <connection>scm:git:https://github.com/Samitha-001/repository.git</connection>
-    <developerConnection>scm:git:https://github.com/Samitha-001/repository.git</developerConnection>
-    <url>https://github.com/Samitha-001/repository.git</url>
+    <connection>scm:git:https://github.com/Samitha-001/drgsubReleaseTest.git</connection>
+    <developerConnection>scm:git:https://github.com/Samitha-001/drgsubReleaseTest.git</developerConnection>
+    <url>https://github.com/Samitha-001/drgsubReleaseTest.git</url>
   </scm>
   <distributionManagement>
     <repository>
