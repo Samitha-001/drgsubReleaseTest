@@ -4,15 +4,15 @@
   <parent>
     <groupId>com.example</groupId>
     <artifactId>drgsubReleaseTestConfigs_module</artifactId>
-    <version>1.0.2</version>
+    <version>1.0.1-SNAPSHOT</version>
     <relativePath>../../pom.xml</relativePath>
   </parent>
   <groupId>com.example.metadata</groupId>
-  <artifactId>drgsubReleaseApi_swagger</artifactId>
-  <version>1.0.2</version>
+  <artifactId>drgsubReleaseApi_metadata</artifactId>
+  <version>1.0.1-SNAPSHOT</version>
   <packaging>synapse/metadata</packaging>
-  <name>drgsubReleaseApi_swagger</name>
-  <description>drgsubReleaseApi_swagger</description>
+  <name>drgsubReleaseApi_metadata</name>
+  <description>drgsubReleaseApi_metadata</description>
   <build>
     <plugins>
       <plugin>
@@ -28,7 +28,7 @@
           </dependency>
         </dependencies>
         <configuration>
-          <artifact>../../../src/main/resources/metadata/drgsubReleaseApi_swagger.yaml</artifact>
+          <artifact>../../../src/main/resources/metadata/drgsubReleaseApi_metadata.yaml</artifact>
         </configuration>
       </plugin>
     </plugins>

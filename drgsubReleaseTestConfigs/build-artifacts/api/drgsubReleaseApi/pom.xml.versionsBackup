@@ -4,20 +4,20 @@
   <parent>
     <groupId>com.example</groupId>
     <artifactId>drgsubReleaseTestConfigs_module</artifactId>
-    <version>1.0.2</version>
+    <version>1.0.1-SNAPSHOT</version>
     <relativePath>../../pom.xml</relativePath>
   </parent>
-  <groupId>com.example.metadata</groupId>
-  <artifactId>drgsubReleaseApi_swagger</artifactId>
-  <version>1.0.2</version>
-  <packaging>synapse/metadata</packaging>
-  <name>drgsubReleaseApi_swagger</name>
-  <description>drgsubReleaseApi_swagger</description>
+  <groupId>com.example.api</groupId>
+  <artifactId>drgsubReleaseApi</artifactId>
+  <version>1.0.1-SNAPSHOT</version>
+  <packaging>synapse/api</packaging>
+  <name>drgsubReleaseApi</name>
+  <description>drgsubReleaseApi</description>
   <build>
     <plugins>
       <plugin>
         <groupId>org.wso2.maven</groupId>
-        <artifactId>wso2-esb-metadata-plugin</artifactId>
+        <artifactId>wso2-mi-synapse-plugin</artifactId>
         <version>5.2.44</version>
         <extensions>true</extensions>
         <dependencies>
@@ -28,7 +28,7 @@
           </dependency>
         </dependencies>
         <configuration>
-          <artifact>../../../src/main/resources/metadata/drgsubReleaseApi_swagger.yaml</artifact>
+          <artifact>../../../src/main/synapse-config/api/drgsubReleaseApi.xml</artifact>
         </configuration>
       </plugin>
     </plugins>

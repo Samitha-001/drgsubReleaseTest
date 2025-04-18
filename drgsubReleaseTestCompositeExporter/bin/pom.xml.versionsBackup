@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>com.example</groupId>
     <artifactId>drgsubReleaseTest</artifactId>
-    <version>1.0.2</version>
+    <version>1.0.1-SNAPSHOT</version>
   </parent>
   <groupId>com.example</groupId>
   <artifactId>drgsubReleaseTestCompositeExporter</artifactId>
-  <version>1.0.2</version>
+  <version>1.0.1-SNAPSHOT</version>
   <packaging>carbon/application</packaging>
   <name>drgsubReleaseTestCompositeExporter</name>
   <description>drgsubReleaseTestCompositeExporter</description>
@@ -25,31 +24,31 @@
     <dependency>
       <groupId>com.example.api</groupId>
       <artifactId>drgsubReleaseApi</artifactId>
-      <version>1.0.0</version>
+      <version>1.0.1-SNAPSHOT</version>
       <type>xml</type>
     </dependency>
     <dependency>
       <groupId>com.example.proxy-service</groupId>
       <artifactId>drgsubProxy</artifactId>
-      <version>1.0.0</version>
+      <version>1.0.1-SNAPSHOT</version>
       <type>xml</type>
     </dependency>
     <dependency>
       <groupId>com.example.metadata</groupId>
       <artifactId>drgsubReleaseApi_metadata</artifactId>
-      <version>1.0.0</version>
+      <version>1.0.1-SNAPSHOT</version>
       <type>yaml</type>
     </dependency>
     <dependency>
       <groupId>com.example.metadata</groupId>
       <artifactId>drgsubReleaseApi_swagger</artifactId>
-      <version>1.0.0</version>
+      <version>1.0.1-SNAPSHOT</version>
       <type>yaml</type>
     </dependency>
     <dependency>
       <groupId>com.example.metadata</groupId>
       <artifactId>drgsubProxy_proxy_metadata</artifactId>
-      <version>1.0.0</version>
+      <version>1.0.1-SNAPSHOT</version>
       <type>yaml</type>
     </dependency>
   </dependencies>
